@@ -26,6 +26,6 @@
 | ------   | --------------      | ---------------------------------------------------------------------------------------------------------      |
 | [POST]   | /api/items/        | Requires `location`, `name` , `description`, and a `price`.  Returns the item object with the specified `item_id`.                                               |
 | [GET]    | /api/items/        | Returns an array filled with items objects.                                                                    |
-| [GET]    | /api/items/:id     | Returns the event object with the specified `item_id`.                                                        |
-| [DELETE] | /api/items/:id     | Removes the event with the specified `item_id` and returns the deleted item.                                 |
-| [PUT]    | /api/items/:id     | Updates the event with the specified `item_id` using data from the `request body`. Returns the modified item |
+| [GET]    | /api/items/:id     | Returns the item object with the specified `item_id`.                                                        |
+| [DELETE] | /api/items/:id     | Removes the item with the specified `item_id` and returns the deleted item.                                 |
+| [PUT]    | /api/items/:id     | Updates the item with the specified `item_id` using data from the `request body`. Returns the modified item |
