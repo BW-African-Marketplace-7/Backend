@@ -7,6 +7,29 @@
 
 3. They add a new `item` by selecting their market `location` and typing in their item's `name`, `description`, and `price`.
 
+# backendPotluck Planner API
+API Documentation: https://bw-african-market-7.herokuapp.com/
+
+[GET] /api/users - returns an array filled with user objects similar to the following:
+```
+[
+  {
+        user_id: 1,
+        username: "Alice123",
+        password: "123",
+        name: "Alice",
+        email: "alice@email.com"
+    },
+    {
+        user_id: 2,
+        username: "Jim456",
+        password: "456",
+        name: "Jim",
+        email: "jim@email.com"
+    }
+]
+```
+
 #### Authentication:
 | Method   | URL                | Description                                                                                            |
 | ------   | --------------     | ------------------------------------------------------------------------------------------------------ |
