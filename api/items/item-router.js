@@ -1,4 +1,5 @@
-const router = require('express').Router()
+const express = require('express')
+const router = express.Router()
 const Items = require('./item-model')
 
 router.get('/', (req, res, next) => {
@@ -48,3 +49,5 @@ router.delete('/:id', async (req, res, next) => {
             next()
     }
 })
+
+module.exports = router
